@@ -2,7 +2,7 @@ let n = 7;
 
 let count = 0;
 for (let i = 1; i <= 9; i++) {
-  if (n % 1 === 0) {
+  if (n % i === 0) {
     count++;
   }
 }
